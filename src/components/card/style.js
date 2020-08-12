@@ -1,13 +1,6 @@
 export default {
   root: {
-    backgroundColor: '#c6d8e0',
-    minWidth: '30%',
-    maxWidth: '40%',
-    minHeight: '50%',
-    maxHeight: '75%',
-  },
-  first_block: {
-
+    margin: '-20px -24px -8px -24px',
   },
   second_block: {
     marginLeft: '50%',
@@ -21,7 +14,6 @@ export default {
     fontSize: 14,
   },
   margin: {
-
     margin: 24,
     minWidth: 200,
     maxHeight: 20,
@@ -40,7 +32,18 @@ export default {
   formControl: {
     minWidth: 120,
   },
+  buttom: {
+    display: 'flex',
+    justifyContent: 'flex-end',
+  },
   button: {
-    left: '80%',
+    marginRight: 24,
+    marginBottom: 24,
+  },
+  position: {
+    minWidth: 100,
+  },
+  date: {
+    width: 100,
   },
 };
